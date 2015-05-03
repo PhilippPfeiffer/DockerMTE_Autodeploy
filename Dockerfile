@@ -10,7 +10,6 @@ apt-get clean && \
 rm -rf /var/lib/apt/lists/*
 
 COPY MTE.war /opt/glassfish4/glassfish/domains/domain1/autodeploy/MTE.war
-COPY MTE.war /opt/glassfish4/bin/MTE.war
 
 ENV PATH /opt/glassfish4/bin:$PATH
 
